@@ -8,8 +8,9 @@ MongoDB
 To run it:
 
 1. Clone Repository
-2. npm i
-3. node index.js
+In the root folder of the project:
+2. run npm i
+3. run node index.js
 
 to test it:
 
