@@ -1,26 +1,31 @@
-Readme
+# Movie Sharkers PoC
 This application was Developed in NodeJS.
 
-Before run it be sure you have:
-NodeJS
-MongoDB
+Before run it make sure you have installed:
+ - NodeJS (https://nodejs.org/en/)
+ - MongoDB (https://www.mongodb.com/es)
 
-To run it:
+### To run it:
 
-1. Clone Repository
+```
+- git clone https://github.com/estebanramir/Stage4.git
+```
 In the root folder of the project:
-2. run npm i
-3. run node index.js
-
-to test it:
+```
+- run npm i
+- run node index.js
+```
+### To test it:
 
 Test the url:
 
-http://localhost:8080/rank
+#### [POST] http://localhost:8080/rank
 
-with a Json body:
+##### with a Json body:
+```
 {
-    "name":"XXXX", (String)
-    "movie":"XXXX", (String)
-    "rating":"XXXX" (Number)
+    "name":"String",
+    "movie":"String",
+    "rating": Int 
 }
+```
