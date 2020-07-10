@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const RankSchema = new Schema({
-    name: String,
+    user: String,
     movie: String,
     rating: Number
 })
